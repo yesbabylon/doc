@@ -7,14 +7,15 @@ A document for listing all documents ressources for documenting our projects.
 - Official documentation of eQualFramework.
   - [https://doc.equal.run/](https://doc.equal.run/)
 
-
 - The documentations about how to contribute to the eQual project.
-  - [](https://github.com/equalframework/.github/blob/master/CONTRIBUTING.md)
+  - [https://github.com/equalframework/.github/blob/main/CONTRIBUTING.md](https://github.com/equalframework/.github/blob/main/CONTRIBUTING.md)
+  - Local repo file [Contributing to eQual.md](Contributing-to-eQual.md)
 
 ## Symbiose
 
 - The documentation about how to contribute to the Symbiose proejct.
-  - [](https://github.com/yesbabylon/.github/blob/master/CONTRIBUTING.md)
+  - [https://github.com/yesbabylon/.github/blob/main/CONTRIBUTING.md](https://github.com/yesbabylon/.github/blob/main/CONTRIBUTING.md)
+  - Local repo file [Contributing to Symbiose.md](Contributing-to-Symbiose.md)
 
 ## Symbiose UI
 
