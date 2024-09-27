@@ -26,14 +26,9 @@ A document for listing all documents ressources for documenting our projects.
 ## Symbiose UI
 
 - The repository where our symbiose shared library is hosted.
-  - [https://github.com/yesbabylon/symbiose-ui/tree/dev-2.0/sb-shared-lib](https://github.com/yesbabylon/symbiose-ui/tree/dev-2.0/sb-shared-lib)
+  - [https://github.com/yesbabylon/symbiose-ui/blob/master/sb-shared-lib/README.md](https://github.com/yesbabylon/symbiose-ui/blob/master/sb-shared-lib/README.md)
 
 ## eQual UI
 
 - The repository for the eQual UI library used with Symbiose UI
   - [https://github.com/equalframework/equal-ui](https://github.com/equalframework/equal-ui)  
-
-## Angular applications
-
-- Documentation about how the frontend librairies work togethers.
-  - [https://doc.equal.run/low-code/low-code/](https://doc.equal.run/low-code/low-code/)
