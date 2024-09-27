@@ -9,19 +9,12 @@ A document for listing all documents ressources for documenting our projects.
 
 
 - The documentations about how to contribute to the eQual project.
-  - [https://github.com/equalframework/equal/blob/master/.github/CONTRIBUTING.md](https://github.com/equalframework/equal/blob/master/.github/CONTRIBUTING.md)
- 
-  - [https://doc.equal.run/contributing/contribution-guide/](https://doc.equal.run/contributing/contribution-guide/)
-    - The officaial chapter on the equal doc website for the contribution guide.  
+  - [](https://github.com/equalframework/.github/blob/master/CONTRIBUTING.md)
 
 ## Symbiose
 
 - The documentation about how to contribute to the Symbiose proejct.
-  - [https://github.com/yesbabylon/symbiose/blob/dev-2.0/CONTRIBUTE.md](https://github.com/yesbabylon/symbiose/blob/dev-2.0/CONTRIBUTE.md)
-
-
-- The documentation about the Symbiose guidelines for developpement purpose.
-  - [https://github.com/yesbabylon/symbiose-doc/blob/main/docs/welcome/contribution-guide.md](https://github.com/yesbabylon/symbiose-doc/blob/main/docs/welcome/contribution-guide.md)
+  - [](https://github.com/yesbabylon/.github/blob/master/CONTRIBUTING.md)
 
 ## Symbiose UI
 
@@ -32,3 +25,8 @@ A document for listing all documents ressources for documenting our projects.
 
 - The repository for the eQual UI library used with Symbiose UI
   - [https://github.com/equalframework/equal-ui](https://github.com/equalframework/equal-ui)  
+
+## Angualar APPs
+
+- The README file of the symbiose shared library
+  -  [](https://github.com/yesbabylon/symbiose-ui/blob/master/sb-shared-lib/README.md)
