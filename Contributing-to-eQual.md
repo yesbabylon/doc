@@ -1,7 +1,7 @@
 # Contributing to eQual
 
 > [!NOTE]
-> To update this file, please refer to [source file](https://github.com/yesbabylon/doc/blob/main/eQual-framework-contributing.md)
+> To update this file, please refer to the [source file](https://github.com/yesbabylon/doc/blob/main/eQual-framework-contributing.md)
 
 We love your input and new contributions to eQual are most welcome and encouraged! :octocat:
 
