@@ -1,5 +1,6 @@
 # Contributing to Symbiose
 
+[//]: # (TODO: UPDATE THE LINK TO THE SOURCE FILE)
 > [!NOTE]
 > To update this file, please refer to a
 > [source file](https://github.com/yesbabylon/doc/blob/main/Contributing-to-Symbiose.md)
