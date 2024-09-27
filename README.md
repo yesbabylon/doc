@@ -15,4 +15,4 @@ A document for listing all documents ressources for documenting our projects.
 ## Symbiose UI / Angular apps
 
 - The repository where our symbiose shared library is hosted.
-  - [https://github.com/yesbabylon/symbiose-ui/blob/master/sb-shared-lib/README.md](https://github.com/yesbabylon/symbiose-ui/blob/master/sb-shared-lib/README.md)
+  - [https://github.com/yesbabylon/symbiose-ui/blob/master/sb-shared-lib/projects/sb-shared-lib/README.md](https://github.com/yesbabylon/symbiose-ui/blob/master/sb-shared-lib/projects/sb-shared-lib/README.md)
