@@ -2,6 +2,8 @@
 
 A document for listing all documents ressources for documenting our projects.
 
+Pour le projet d'unifier les fichiers voici l'URL Google Drive : [Dossier .github pour les organisations](https://drive.google.com/drive/folders/1-3SFeW1MmZEajcnVgApp2lkp4xZKArJb?usp=sharing)
+
 ## eQualFramework
 
 - Official documentation of eQualFramework.
