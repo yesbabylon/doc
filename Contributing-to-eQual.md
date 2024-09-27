@@ -1,7 +1,9 @@
 # Contributing to eQual
 
+[//]: # (TODO: UPDATE THE LINK TO THE SOURCE FILE)
 > [!NOTE]
-> To update this file, please refer to the [source file](https://github.com/yesbabylon/doc/blob/main/eQual-framework-contributing.md)
+> To update this file, please refer to
+> the [source file](https://github.com/yesbabylon/doc/blob/main/eQual-framework-contributing.md)
 
 We love your input and new contributions to eQual are most welcome and encouraged! :octocat:
 
@@ -46,7 +48,8 @@ Guidelines for reporting bugs:
 * Isolate the problem to a simple test case.
 * Please include a code snippet that demonstrates the bug. If filing a bug against master, you may reference the latest
   code using the URL of the repository of the branch (e.g.
-  [https://github.com/equalframework/equal/blob/master/eq.lib.php](https://github.com/equalframework/equal/blob/master/eq.lib.php) - changing the filename to point at the file you need
+  [https://github.com/equalframework/equal/blob/master/eq.lib.php](https://github.com/equalframework/equal/blob/master/eq.lib.php) -
+  changing the filename to point at the file you need
   as appropriate).
 * Please provide any additional details associated with the bug, if it's generic or only happens with a certain
   configuration or data set.
