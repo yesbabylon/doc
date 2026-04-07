@@ -1,0 +1,12 @@
+sources:
+  - name: Project A
+    repo: https://github.com/org/project-a.git
+    branch: main
+    path: doc
+    target: project-a
+
+  - name: Project B
+    repo: https://github.com/org/project-b.git
+    branch: main
+    path: docs
+    target: project-b
