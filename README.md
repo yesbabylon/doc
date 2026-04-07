@@ -49,7 +49,7 @@ Each source specifies:
 - the path to documentation inside the repo
 - the target directory in the final documentation
 
-Example:
+Examples:
 
 ```yaml
 sources:
@@ -64,7 +64,31 @@ sources:
     branch: main
     path: docs
     target: project-b
-````
+```
+
+
+
+
+```yaml
+sources:
+  - name: Discope
+    repo: https://github.com/discope-pms/discope.git
+    branch: main
+    path: doc
+    target: .
+
+  - name: Lathus
+    repo: https://github.com/discope-pms/discope.git
+    branch: main
+    path: lathus/doc
+    target: lathus
+    
+  - name: Kaleo
+    repo: https://github.com/discope-pms/discope.git
+    branch: main
+    path: kaleo/doc
+    target: kaleo
+```
 
 
 
@@ -127,7 +151,7 @@ All composition is defined in `sources.yml`.
 
 The `docs/` folder is fully generated and can be rebuilt at any time.
 
----
+
 
 ## Requirements
 
