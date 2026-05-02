@@ -36,7 +36,6 @@ while [ "$i" -lt "$COUNT" ]; do
 
   SRC_PATH="$CLONE_DIR/$PATH_SRC"
 
-  # Gestion target = "."
   if [ "$TARGET" = "." ]; then
     DEST_PATH="$DOCS"
     NAV_PREFIX=""
@@ -56,10 +55,11 @@ while [ "$i" -lt "$COUNT" ]; do
     ERROR=1
   fi
 
-  # NAV uniquement si pas d'erreur
   if [ "$ERROR" -eq 0 ]; then
 
-    echo "" >> "$NAV_FILE"
+    # Ligne vide uniquement entre blocs (pas avant le premier)
+    [ "$i" -gt 0 ] && echo "" >> "$NAV_FILE"
+
     echo "  - $NAME:" >> "$NAV_FILE"
 
     if [ -f "$DEST_PATH/nav.yml" ]; then
@@ -67,7 +67,6 @@ while [ "$i" -lt "$COUNT" ]; do
       if [ "$TARGET" = "." ]; then
         sed 's/^/    /' "$DEST_PATH/nav.yml" >> "$NAV_FILE"
       else
-        # Préfixage propre UNIQUEMENT sur les chemins entre quotes
         sed "s|: '|: '$NAV_PREFIX|g" "$DEST_PATH/nav.yml" | sed 's/^/    /' >> "$NAV_FILE"
       fi
 
@@ -95,7 +94,9 @@ awk '
 ' mkdocs.yml > "$TMP/mkdocs.clean.yml"
 
 cat "$TMP/mkdocs.clean.yml" > mkdocs.yml
-echo "" >> mkdocs.yml
+
+# Une seule ligne vide avant nav (contrôlée)
+printf "\n" >> mkdocs.yml
 cat "$NAV_FILE" >> mkdocs.yml
 
 echo "== Done =="
